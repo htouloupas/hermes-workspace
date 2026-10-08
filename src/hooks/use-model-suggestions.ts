@@ -19,7 +19,7 @@ type Suggestion = {
 // Provider-specific model tiers (fallback when cost metadata unavailable)
 const MODEL_TIERS: Record<string, Record<ModelTier, Array<string>>> = {
   anthropic: {
-    budget: ['claude-3-5-haiku', 'claude-haiku'],
+    budget: ['claude-haiku-5-5', 'claude-3-5-haiku', 'claude-haiku'],
     balanced: ['claude-3-5-sonnet', 'claude-sonnet-4-5'],
     premium: ['claude-opus-4', 'claude-opus-4-5', 'claude-opus-4-6'],
   },

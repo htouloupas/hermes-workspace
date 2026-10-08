@@ -182,7 +182,7 @@ export const PROVIDER_COMMON_MODELS: Record<string, Array<{ value: string; label
   anthropic: [
     { value: 'anthropic/claude-opus-4-6', label: 'Claude Opus 4.6' },
     { value: 'anthropic/claude-sonnet-4-6', label: 'Claude Sonnet 4.6' },
-    { value: 'anthropic/claude-haiku-3-5', label: 'Claude Haiku 3.5' },
+    { value: 'anthropic/claude-haiku-5-5', label: 'Claude Haiku 5.5' },
   ],
   openai: [
     { value: 'openai/gpt-5-codex', label: 'GPT-5 Codex' },
